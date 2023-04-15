@@ -1,6 +1,6 @@
 import React from "react";
 import "./collection.scss";
-import CollectionCard from "../../components/CollectioCard/CollectionCard";
+import CollectionCard from "../../components/CollectionCard/CollectionCard";
 import { mock_data } from "../../../src/mock-data";
 
 // MOCKS
