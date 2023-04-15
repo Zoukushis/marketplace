@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className='home'>
             <div className='home__top'>
-                <ul className='home__link display--flex'>
+                <ul className='home__link flex--basic'>
                     <li><NavLink activeclassname='active--link'>All</NavLink></li>
                     <li><NavLink>Art</NavLink></li>
                     <li><NavLink>Gaming</NavLink></li>

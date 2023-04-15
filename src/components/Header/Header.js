@@ -3,8 +3,8 @@ import '../Header/header.scss'
 
 const Header = () => {
     return (
-        <div className='header display--flex'>
-                <div className='header__menu__title display--flex'>
+        <div className='header flex--basic'>
+                <div className='header__menu__title flex--basic'>
                     <i className="fa-solid fa-bars"></i>
                     <figure className='header__logo'></figure>
                     <h1 className='header__title'>ZoukuPlace</h1>

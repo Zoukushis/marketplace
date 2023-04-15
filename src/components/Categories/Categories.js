@@ -6,7 +6,7 @@ const Categories = () => {
     return (
         <div className='categories '>
             <h2> Gaming Spotlight</h2>
-            <div className='cardContainer display--flex'>
+            <div className='cardContainer flex--basic'>
                 <CardHome/>
                 <CardHome/>
                 <CardHome/>
