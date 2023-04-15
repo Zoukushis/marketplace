@@ -1,0 +1,39 @@
+.collection-card {
+
+    flex-grow: 1;
+    flex-basis: 150px;
+    border-radius: 0.5em;
+    overflow: hidden;
+    background-color: #353840;
+    font-size: 0.875rem;
+
+    .collection-card__image-container {
+        overflow: hidden;
+    }
+
+    .collection-card__info {
+        padding: 1em;
+
+        .collection-card_info__top {
+
+            align-items: center;
+
+            .collection-card__info__rarity {
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                border-radius: 0.5em;
+                font-size: 0.75rem;
+                padding: 0.2em ;
+                white-space: nowrap;
+            }
+        
+           .collection-card__info__name {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+           } 
+        }
+
+    }
+}
+
+
